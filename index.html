@@ -1,17 +1,49 @@
 <!DOCTYPE html>
 <html>
+  <script src ="myScript.js"></script>
 
 <head>
   <title>AP Bio Study Site!</title>
+
+    $(document).ready(function(){
+  $("#hide").click(function(){
+  $("p").hide();
+  $("#show").click(function(){
+  $("p").show();
+  });
+});
 </head>
+
+  <button id>"hide"Hide</button>
+  <button id>"show"Show</button>
+ 
+
+    <div id>"flip"Flashcard</div>
+  <div id>"panel"Read</div>
+
+  $(document).ready(function(){
+$("button").click(function() {
+$(p1).show("fast", function() {
+alert("The hint has been issued.")
+  });
+  });
+  });
+
+  <button>Show</button>
+
+  $(document).ready(function(){
+  $("button").click(function(){
+  $(p1).hide("fast", function(){
+alert("The hint is now hidden.")
+  });
+  });
+  });
+
+   <button>Hide</button>
 
 <body>
   <h1>Unit 1 AP Biology</h1>
-  <p>"Welcome to my webpage for Unit 1 of AP Bio."</p>
-
-  <div id>"flip"Flashcard</div>
-  <div id>"panel"Read</div>
-  
+  <p>"Welcome to my webpage that covers Unit 1 of AP Bio! Use the tools below to test your skills and knowledge of Unit 1."</p>
+  <p1>Hint: Water is an aysymetrical molecule and the atoms have different electronegitivities.</p>
 </body>
-  
 </html>
