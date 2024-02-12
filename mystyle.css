@@ -6,6 +6,6 @@ padding: 50px;
 #panel, #flip {
 padding: 5px;
   text-align: center;
-  background-color: blue;
+  background: blue;
   border: 1px solid black;
 }
